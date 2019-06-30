@@ -80,17 +80,17 @@
 
 
 
-<meta name="description" content="偶尔随笔">
+<meta name="description" content="记录学习">
 <meta property="og:type" content="website">
 <meta property="og:title" content="about">
 <meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="CrownP_Blog">
-<meta property="og:description" content="偶尔随笔">
+<meta property="og:description" content="记录学习">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2019-06-29T13:53:34.898Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="about">
-<meta name="twitter:description" content="偶尔随笔">
+<meta name="twitter:description" content="记录学习">
 
 
 
@@ -100,7 +100,7 @@
     root: '/',
     scheme: 'Gemini',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":"ture","onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -161,7 +161,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">渣渣的自我修炼</p>
+        <p class="site-subtitle">渣渣的自我救赎</p>
       
   </div>
 
@@ -324,7 +324,7 @@
               <img class="site-author-image" itemprop="image" src="/images/header.jpg" alt="CrownP">
             
               <p class="site-author-name" itemprop="name">CrownP</p>
-              <p class="site-description motion-element" itemprop="description">偶尔随笔</p>
+              <p class="site-description motion-element" itemprop="description">记录学习</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -432,6 +432,8 @@
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
         
+          <span id="scrollpercent"><span>0</span>%</span>
+        
       </div>
     
 
@@ -457,6 +459,8 @@
 
   
 
+
+  
 
 
 
@@ -496,6 +500,11 @@
   
   
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
   
 
 
